@@ -12,6 +12,31 @@
     transition-timing-function: ease-in;
     z-index: 1;
     
-    background-color: red;
+    /* background-color: red; */
     
+}
+.nav_black{
+    background-color: rgb(20, 20, 20);
+}
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.header-right ul{
+    width: 140%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
 }

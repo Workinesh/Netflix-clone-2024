@@ -1,8 +1,8 @@
 import React from 'react'
+import "./Footer.css"
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import "./Footer.css"
 
 const Footer = () => {
   return (
@@ -49,10 +49,10 @@ const Footer = () => {
                 </p>
 
             </div>
-            <di className='copy-wright'>
+            <div className='copy-wright'>
                 &copy;1997-2024 Netflix,Inc.
 
-            </di>
+            </div>
         </div>
 
      </div>
